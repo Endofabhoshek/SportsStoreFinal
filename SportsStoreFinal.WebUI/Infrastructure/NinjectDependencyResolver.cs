@@ -10,6 +10,7 @@ namespace SportsStoreFinal.WebUI.Infrastructure
     public class NinjectDependencyResolver : IDependencyResolver
     {
         private IKernel kernel;
+
         public NinjectDependencyResolver(IKernel kernelParam)
         {
             kernel = kernelParam;
